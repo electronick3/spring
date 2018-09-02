@@ -4,5 +4,5 @@ public interface Gun {
 
     Bullet getBullet();
     void setBullet(Bullet bullet);
-    void Shot();
+    void shot();
 }

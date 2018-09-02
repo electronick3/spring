@@ -8,6 +8,6 @@ public class Client {
     {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Gun gun = context.getBean("gun", Gun.class);
-        gun.Shot();
+        gun.shot();
     }
 }

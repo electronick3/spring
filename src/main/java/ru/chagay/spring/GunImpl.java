@@ -16,9 +16,9 @@ public class GunImpl implements Gun {
         this.bullet = bullet;
     }
 
-    public void Shot() {
+    public void shot() {
         System.out.println("Огонь!");
 
-        bullet.Pli();
+        bullet.pli();
     }
 }
